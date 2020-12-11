@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Formularios </h1>
+    </header>
+    <main>
+        <section>
+            <h2> Registro de Usuario : </h2>
+            <form>
+                <label for="id_nombres"> Nombres : </label>
+                <input type="text"
+                placeholder=" ingrese nombre completo:"
+                id="id_nombres"
+                >
+                <br>
+                <label for="apellidos"> ingrese su apellido :</label>
+                <input type="text"
+                placeholder="ingrese sus apellidos"
+                id="id_apellidos"
+                >
+                <label> Correo: </label>
+                <input 
+                type="email"
+                placeholder="ingrese su email">
+                <br>
+                <label> Contraseña </label>
+                <input type="password"
+                placeholder="Ingrese su clave">
+                <br>
+                <label>Edad: </label>
+                <input
+                    type="number"
+                    placeholder="Ingrese su edad"
+                    min="1"
+                    max="120">
+                <br>
+                <h4> Adicionales </h4>
+                <label> fecha de nacimiento</label>
+                <input
+                type="date"
+                >
+                <br>
+                <label> telefono</label>
+                <input type="tel"
+                placeholder="ingrese su teléfono">
+                <br>
+                <label> Género</label>
+                <br>
+                <input type="radio"
+                    name="genero"> masculino
+                <br>
+                <input type="radio"
+                    name="genero"> femenino
+                <br>
+                <label> Departamento:</label>
+                <select>
+                    <option disabled selected> Selecciones</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="AN">Ancaash</option>
+                    <option value="AP">Apurímac</option>
+                    <option value="LI">Lima</option>
+                    <option value="SU">> Surco</option>
+                    <option value="SM">> San Miguel</option>
+                </select>
+                <br>
+                <label> Hobbies:</label>
+                <br>
+                <label> Tocar guitarra</label>
+                <input type="checkbox" value="guitarra">
+                <br>
+                <label> oir música</label>
+                <input type="checkbox" value="musica">
+                <br>
+                <textarea placeholder ="DEscribete"></textarea>
+                <br>
+                <label> sube tu foto:</label>
+                <input type="file">
+                <hr>
+                <input type="submit" value="Enviarr">
+                <input type="reset" value="Limpiarr">
+
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+</html>
