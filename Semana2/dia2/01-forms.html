@@ -17,12 +17,15 @@
                 <input type="text"
                 placeholder=" ingrese nombre completo:"
                 id="id_nombres"
+                value=""
+                pattern="[A-Z a-z]+"
                 >
                 <br>
                 <label for="apellidos"> ingrese su apellido :</label>
                 <input type="text"
                 placeholder="ingrese sus apellidos"
                 id="id_apellidos"
+                pattern="[A-Z -z]{3,30}"
                 >
                 <label> Correo: </label>
                 <input 
@@ -31,7 +34,8 @@
                 <br>
                 <label> Contraseña </label>
                 <input type="password"
-                placeholder="Ingrese su clave">
+                placeholder="Ingrese su clave" required>
+                 
                 <br>
                 <label>Edad: </label>
                 <input
